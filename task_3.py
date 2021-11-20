@@ -1,6 +1,5 @@
 # Задание 3
 
-
 """
 
 Склонение слова
@@ -17,18 +16,14 @@
 """
 
 for i in range(100):
-    new_str = str(i+1)
+    new_str = str(i + 1)
     new_list = list(new_str)
-    if int(new_list[-1]) == 1 and i+1 != 11:
-        # print(f"{i + 1} процент")
+    if int(new_list[-1]) == 1 and i + 1 != 11:
         print(i + 1, "процент")
     elif 1 < int(new_list[-1]) <= 4:
         if 10 < i + 1 <= 14:
-            # print(f"{i + 1} процентов")
             print(i + 1, "процентов")
         else:
-            # print(f"{i + 1} процента")
             print(i + 1, "процента")
     else:
-        # print(f"{i + 1} процентов")
         print(i + 1, "процентов")
